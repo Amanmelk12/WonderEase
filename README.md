@@ -53,13 +53,13 @@ wonderease/
 
 ## Features
 
-### User Authentication
+### 1. User Authentication
 - Registration and login system
 - Role-based access (user, admin)
 - Secure password handling
 - Admin registration system
 
-### Customer Dashboard
+### 2. Customer Dashboard
 - Personal information management
 - Booking history and management
 - Package browsing and booking
@@ -67,7 +67,7 @@ wonderease/
 - Booking cancellation
 - Support ticket system
 
-### Booking System
+### 3. Booking System
 - Package browsing and details
 - Dynamic pricing
 - Booking management
@@ -75,7 +75,7 @@ wonderease/
 - Booking cancellation
 - Email confirmations
 
-### Admin Dashboard
+### 4. Admin Dashboard
 - Package management (add, edit, delete)
 - User management
 - Booking oversight and updates
@@ -83,13 +83,13 @@ wonderease/
 - Newsletter management
 - Booking status updates
 
-### Customer Support
+### 5. Customer Support
 - Contact form
 - Ticket system
 - Response management
 - Real-time updates
 
-### Payment System
+### 6. Payment System
 - Secure payment processing
 - Payment status tracking
 - Booking confirmation
