@@ -65,8 +65,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['response_content'])) 
                 if ($new_status === 'closed') {
                     $notification_message = "Your support request (#{$message_id}) has been closed. Status: " . ucfirst($new_status) . ".";
                 }
-                $stmt = $conn->prepare("INSERT INTO notifications (user_id, message, type) VALUES (?, ?, ?)");
-                $stmt->execute([$message['user_id'], $notification_message, 'info']);
+               $stmt = $conn->prepare("INSERT INTO notifications (user_id, message) VALUES (?, ?)");
+                $stmt->execute([$message['user_id'], $notification_message]);
             }
 
             $conn->commit();
